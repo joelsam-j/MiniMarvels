@@ -137,7 +137,7 @@ const CAR_CATALOG = [
         rating: 5.0,
         reviews: 94,
         scale: "1:64 Scale",
-        image: "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1768662534419886",
+        image: "https://models118.com/wp-content/uploads/2026/08/da9d9785-bbf1-403e-aebb-27daba7c3913-800x533.jpg.avif",
         specs: ["Weissach carbon aero package", "Active rear wing winglets", "Rubber tires", "1:64 scale diecast"],
         description: "Track-focused monster! 1:64 scale Porsche 911 GT3 RS diecast model."
     },
