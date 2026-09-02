@@ -4,7 +4,7 @@
    Phone / WhatsApp: +91 7012153558
    ========================================================================== */
 
-// EXACT 20 CARS CATALOG (Provided by User)
+// EXACT 20 CARS CATALOG (Provided by User with Verified Working Image Links)
 const CAR_CATALOG = [
     {
         id: 1,
@@ -137,7 +137,7 @@ const CAR_CATALOG = [
         rating: 5.0,
         reviews: 94,
         scale: "1:64 Scale",
-        image: "https://static.wikia.nocookie.net/hotwheels/images/f/f3/2022Porsche911GT3RS.jpg/revision/latest/scale-to-width-down/1200?cb=20260110124616",
+        image: "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1768662534419886",
         specs: ["Weissach carbon aero package", "Active rear wing winglets", "Rubber tires", "1:64 scale diecast"],
         description: "Track-focused monster! 1:64 scale Porsche 911 GT3 RS diecast model."
     },
@@ -287,7 +287,7 @@ const CAR_CATALOG = [
         rating: 4.8,
         reviews: 52,
         scale: "1:64 Scale",
-        image: "https://static.wikia.nocookie.net/hotwheels/images/f/f2/2021NM28_%28Large%29.JPG/revision/latest/scale-to-width-down/1200?cb=20210405025159",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxD1hdwOA5XM-KvhUYwf46x89CG412chJaiMunujzH-4DOaW8lWlRcNgPe&s=10",
         specs: ["Modern GR Supra sports coupe body", "Factory alloy wheels", "Rubber tires", "1:64 scale diecast"],
         description: "Modern JDM tuner legend! 1:64 scale Hot Wheels Toyota GR Supra MK5 diecast."
     },
@@ -362,7 +362,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function renderHeroShowcase() {
     const heroImgEl = document.getElementById('heroShowcaseImg');
     if (heroImgEl) {
-        const topCar = CAR_CATALOG[8]; // Porsche 911 GT3 RS or Mustang
+        const topCar = CAR_CATALOG[8]; // Porsche 911 GT3 RS
         heroImgEl.outerHTML = `<div id="heroShowcaseImg" style="width:100%; height:320px; background:#fff; border-radius:14px; padding:10px;">${getWhiteBgCarImageHtml(topCar, '100%')}</div>`;
     }
 }
