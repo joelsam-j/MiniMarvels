@@ -287,7 +287,7 @@ const CAR_CATALOG = [
         rating: 4.8,
         reviews: 52,
         scale: "1:64 Scale",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxD1hdwOA5XM-KvhUYwf46x89CG412chJaiMunujzH-4DOaW8lWlRcNgPe&s=10",
+        image: "https://static.wikia.nocookie.net/hotwheels/images/f/f2/2021NM28_%28Large%29.JPG/revision/latest?cb=20210405025159",
         specs: ["Modern GR Supra sports coupe body", "Factory alloy wheels", "Rubber tires", "1:64 scale diecast"],
         description: "Modern JDM tuner legend! 1:64 scale Hot Wheels Toyota GR Supra MK5 diecast."
     },
